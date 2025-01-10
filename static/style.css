@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fb;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5em;
+  color: #4c6ef5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #e1e9f0;
+  font-size: 1.1em;
+  transition: background-color 0.3s;
+}
+
+ul li:hover {
+  background-color: #c7d9f8;
+}
+
+ul li strong {
+  font-weight: bold;
+}
+
+ul li span {
+  color: #888;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 1080px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
